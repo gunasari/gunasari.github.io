@@ -1,0 +1,121 @@
+
+    <!-- Struktur Organisasi -->
+    <section class="struktur-organisasi" id="struktur-organisasi">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2>Struktur Organisasi</h2>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card mt-4 text-center">
+                        <img src="img/icon/036-boy.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a href="" class="card-link"> 
+                                    Kepala Desa
+                                </a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card mt-4 text-center">
+                        <img src="img/icon/036-boy.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a href="" class="card-link"> 
+                                    Kepala Desa
+                                </a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card mt-4 text-center">
+                        <img src="img/icon/036-boy.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a href="" class="card-link"> 
+                                    Kepala Desa
+                                </a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <button type="button" class="btn btn-light">Lihat Selengkapnya...</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Kegiatan Desa  -->
+    <section class="kegiatan" id="kegiatan">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2>Kegiatan Desa</h2>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    <img src="img/thumbs/gerakjalan.jpg" alt="" class="img-thumbnail">
+                </div>
+
+                <div class="col-sm-4 text-center">
+                    <img src="img/thumbs/gerakjalan.jpg" alt="" class="img-thumbnail">
+                </div>
+
+                <div class="col-sm-4 text-center">
+                    <img src="img/thumbs/gerakjalan.jpg" alt="" class="img-thumbnail">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    <img src="img/thumbs/gerakjalan.jpg" alt="" class="img-thumbnail">
+                </div>
+
+                <div class="col-sm-4 text-center">
+                    <img src="img/thumbs/gerakjalan.jpg" alt="" class="img-thumbnail">
+                </div>
+
+                <div class="col-sm-4 text-center">
+                    <img src="img/thumbs/gerakjalan.jpg" alt="" class="img-thumbnail">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- data penduduk -->
+    <section class="data-penduduk" id="data-penduduk">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2>Data Penduduk</h2>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row pt-5">
+                <div class="col-sm-4 text-center">
+                    <img src="img/icon/increase.png" alt="">
+                </div>
+                <div class="col-sm-8">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum commodi ducimus reprehenderit soluta aliquam labore eveniet, a non impedit porro odio debitis ratione! Perferendis aliquam consequuntur et animi. Odit placeat quia natus recusandae consequatur molestias ex ratione? Ipsum sequi necessitatibus explicabo asperiores molestiae praesentium ipsa enim labore dolorem ipsam ab perspiciatis beatae neque, soluta reiciendis ad. Ex sequi officiis unde quam ratione ipsum sapiente vel tempore ad vitae, sit sint sed possimus et, rerum culpa. Adipisci architecto, placeat assumenda alias officiis ex? Expedita deserunt accusamus omnis delectus hic labore, obcaecati pariatur dolore dolores maiores placeat ex eum tenetur, modi fugiat.</p>
+                    <button type="button" class="btn btn-light">Lihat Selengkapnya...</button>
+                </div>
+            </div>
+        </div>
+    </section>
