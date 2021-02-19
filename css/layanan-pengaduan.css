@@ -1,0 +1,118 @@
+header{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+header img{
+    width: 65%;
+}
+
+.navbar{
+    box-shadow: 0 1px 10px black;
+}
+
+.navbar-brand img{
+    width: 50px;
+}
+
+.navbar-nav{
+    margin: 0 auto;
+}
+
+.navbar-nav img{
+    width: 24px;
+}
+
+.navbar-nav:nth-child(2) a{
+    padding: 15px;
+}
+
+.navbar .navbar-nav .nav-item a{
+    color: rgb(228, 228, 228);
+}
+
+.navbar .navbar-nav .dropdown .nav-link{
+    color: rgb(228, 228, 228);
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu .dropdown-item{
+    color: rgb(58, 58, 58);
+}
+
+.navbar .navbar-nav .nav-item a:hover{
+    color: rgb(167, 167, 167);
+}
+
+.form textarea{
+    min-height: 200px;
+}
+
+@media (max-width: 576px){
+    .carousel-caption img{
+        width:100%; 
+        margin-top: -100px;
+    }
+
+    body{
+        margin-top: 50px;
+    }
+
+    p{
+        font-size: .6em;
+    }
+
+    h1{
+        font-size: 1.3em;
+    }
+
+    hr{
+        width: 200px;
+    }
+
+    .navbar-brand img{
+        width: 25px;
+    }
+
+    nav a{
+        font-size: .6em;
+    }
+
+    .navbar-nav img{
+        width: 16px;
+        float: left;
+    }
+
+    .navbar-nav.social-media{
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .profil-desa button{
+        font-size: .7em;
+    }
+
+    .profil-desa li{
+        font-size: .6em;
+        margin-left: -28px;
+    }
+
+    h3{
+        font-size: 1.2em;
+    }
+
+    h4{
+        font-size: 1.1em;
+    }
+
+    h5{
+        font-size: 1em;
+    }
+
+    header{
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+
+}
