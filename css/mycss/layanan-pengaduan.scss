@@ -1,47 +1,4 @@
-header{
-    margin-top: 100px;
-    margin-bottom: 30px;
-}
-
-header img{
-    width: 65%;
-}
-
-nav{
-   box-shadow: 0 1px 10px black; 
-}
-
-.navbar-brand img{
-    width: 50px;
-}
-
-.navbar-nav{
-    margin: 0 auto;
-}
-
-.navbar-nav img{
-    width: 24px;
-}
-
-.navbar-nav:nth-child(2) a{
-    padding: 15px;
-}
-
-.navbar .navbar-nav .nav-item a{
-    color: rgb(228, 228, 228);
-}
-
-.navbar .navbar-nav .dropdown .nav-link{
-    color: rgb(228, 228, 228);
-}
-
-.navbar .navbar-nav .dropdown .dropdown-menu .dropdown-item{
-    color: rgb(58, 58, 58);
-}
-
-.navbar .navbar-nav .nav-item a:hover{
-    color: rgb(167, 167, 167);
-}
+@import "nav";
 
 .form textarea{
     min-height: 200px;
@@ -50,6 +7,13 @@ nav{
 footer{
     position: relative;
     bottom: 0;
+}
+
+header{
+    img{
+        width: 300px;
+        margin: 30px auto;
+    }
 }
 
 @media (max-width: 576px){

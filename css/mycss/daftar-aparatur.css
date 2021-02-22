@@ -1,0 +1,38 @@
+.nav {
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 1px 10px rgba(0, 0, 0, 0.7);
+}
+
+.navbar-brand img {
+  width: 40px;
+}
+
+.navbar .navbar-nav {
+  margin: 0 auto;
+}
+
+.navbar .navbar-nav img {
+  width: 24px;
+}
+
+.navbar .navbar-nav .nav-item a {
+  color: #e4e4e4;
+  font-size: 0.8rem;
+}
+
+.navbar .navbar-nav .nav-item a:hover {
+  color: #a7a7a7;
+}
+
+.navbar .navbar-nav .dropdown .nav-link {
+  color: #e4e4e4;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu .dropdown-item {
+  color: #3a3a3a;
+}
+
+.navbar-nav:nth-child(2) a {
+  padding: 15px;
+}
+/*# sourceMappingURL=daftar-aparatur.css.map */
