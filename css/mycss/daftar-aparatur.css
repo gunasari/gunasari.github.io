@@ -35,4 +35,8 @@
 .navbar-nav:nth-child(2) a {
   padding: 15px;
 }
+
+.aparatur .container .row .col .circle {
+  background-color: black;
+}
 /*# sourceMappingURL=daftar-aparatur.css.map */
