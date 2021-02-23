@@ -1,0 +1,90 @@
+@import "nav";
+$box-shadow: 1px 1px 10px rgba(0,0,0,.9);
+
+.form{ 
+    textarea{
+        min-height: 200px;
+    }
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+}
+
+header{
+    img{
+        width: 300px;
+        margin: 30px auto;
+    }
+}
+
+@media (max-width: 576px){
+    .carousel-caption img{
+        width:100%; 
+        margin-top: -100px;
+    }
+
+    body{
+        margin-top: 50px;
+    }
+
+    p{
+        font-size: .6em;
+    }
+
+    h1{
+        font-size: 1.3em;
+    }
+
+    hr{
+        width: 200px;
+    }
+
+    .navbar-brand img{
+        width: 25px;
+    }
+
+    nav a{
+        font-size: .6em;
+    }
+
+    .navbar-nav img{
+        width: 16px;
+        float: left;
+    }
+
+    .navbar-nav.social-media{
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .profil-desa button{
+        font-size: .7em;
+    }
+
+    .profil-desa li{
+        font-size: .6em;
+        margin-left: -28px;
+    }
+
+    h3{
+        font-size: 1.2em;
+    }
+
+    h4{
+        font-size: 1.1em;
+    }
+
+    h5{
+        font-size: 1em;
+    }
+
+    header{
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+
+
+}

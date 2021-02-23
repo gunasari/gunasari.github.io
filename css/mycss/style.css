@@ -1,0 +1,183 @@
+.nav {
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 1px 10px rgba(0, 0, 0, 0.7);
+}
+
+.navbar-brand img {
+  width: 40px;
+}
+
+.navbar .navbar-nav {
+  margin: 0 auto;
+}
+
+.navbar .navbar-nav img {
+  width: 24px;
+}
+
+.navbar .navbar-nav .nav-item a {
+  color: #e4e4e4;
+  font-size: 0.8rem;
+}
+
+.navbar .navbar-nav .nav-item a:hover {
+  color: #a7a7a7;
+}
+
+.navbar .navbar-nav .dropdown .nav-link {
+  color: #e4e4e4;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu .dropdown-item {
+  color: #3a3a3a;
+}
+
+.navbar-nav:nth-child(2) a {
+  padding: 15px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+}
+
+img {
+  width: 100%;
+  /* height: 60%; */
+}
+
+hr {
+  color: black;
+  width: 400px;
+  border-top: 4px solid #666;
+  margin: 0 auto;
+}
+
+button {
+  margin-top: 30px;
+}
+
+.carousel {
+  background-attachment: fixed;
+}
+
+.carousel .carousel-caption {
+  margin: auto;
+}
+
+.carousel .carousel-item img {
+  -webkit-filter: brightness(0.7);
+          filter: brightness(0.7);
+}
+
+.carousel .carousel-caption img {
+  width: 75%;
+  margin-top: -85%;
+}
+
+.container-fluid {
+  padding: 0;
+  margin-top: -30px;
+}
+
+/* nav card */
+.nav-card .card {
+  margin: 30px auto;
+}
+
+.nav-card .card a {
+  font-size: 1.3em;
+}
+
+.nav-card img {
+  width: 200px;
+  margin: 0 auto;
+}
+
+/* Profil Desa */
+.profil-desa {
+  background-color: #ececec;
+  min-height: 500px;
+}
+
+.profil-desa p {
+  margin-top: 20px;
+}
+
+.d-flex .d-content {
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 3px 8px rgba(0, 0, 0, 0.8);
+  margin: 30px 8px;
+  width: 50%;
+  max-width: 150px;
+}
+
+.d-flex .d-content img {
+  width: 75%;
+  max-width: 100px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+}
+
+@media (max-width: 576px) {
+  .carousel-caption img {
+    width: 100%;
+    margin-top: -100px;
+  }
+  body {
+    margin-top: 50px;
+  }
+  p {
+    font-size: .6em;
+  }
+  h1 {
+    font-size: 1.3em;
+  }
+  hr {
+    width: 200px;
+  }
+  .navbar-brand img {
+    width: 25px;
+  }
+  nav a {
+    font-size: .6em;
+  }
+  .navbar-nav img {
+    width: 16px;
+    float: left;
+  }
+  .navbar-nav.social-media {
+    margin-top: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .profil-desa button {
+    font-size: .7em;
+  }
+  .profil-desa li {
+    font-size: .6em;
+    margin-left: -28px;
+  }
+  h3 {
+    font-size: 1.2em;
+  }
+  h4 {
+    font-size: 1.1em;
+  }
+  h5 {
+    font-size: 1em;
+  }
+  .profil-desa h1, h2, h3, h4, h5 {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */

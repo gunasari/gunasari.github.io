@@ -1,0 +1,44 @@
+@import "nav";
+
+.aparatur{
+    .container, .container-fluid{
+        $img-size: 150px !global;
+
+        background-image: url(../../img/background/4858794.jpg);
+        background-size: cover;
+        .kotak{
+            background-color: black;
+        }
+
+        .jumbotron{
+            height: 210px;
+            background-image: url(../../img/banner/banner-aparatur.png);
+            background-position: center;
+            background-size: cover;
+        }
+        
+        img{
+            box-sizing: border-box;
+            padding: 0 20px;
+            width: 200px;
+        }
+
+        .kaur{ 
+            img{
+                width: $img-size;
+            }
+        }
+
+        .kasi{
+            img{
+                width: $img-size;
+            }
+        }
+
+        .kadus{
+            img{
+                width: $img-size;
+            }
+        }
+    }
+}

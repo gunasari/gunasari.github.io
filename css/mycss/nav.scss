@@ -1,0 +1,55 @@
+$box-shadow: 0 1px 10px rgba(0,0,0,.7);
+$link-color: rgb(228, 228, 228);
+$link-hover-color: rgb(167, 167, 167);
+$dropdown-color: rgb(58, 58, 58);
+$brand-img-width: 40px;
+$navbar-img-width: 24px;
+$font-size: 0.8rem;
+
+.nav {
+    box-shadow: $box-shadow;
+}
+
+.navbar-brand{ 
+    img{
+        width: $brand-img-width;
+    }
+}
+
+.navbar{
+    .navbar-nav{
+        margin: 0 auto;
+        img{
+            width: $navbar-img-width;
+        }
+
+        .nav-item{
+            a{
+                color: $link-color;
+                font-size: $font-size;
+            }
+
+            a:hover{
+                color: $link-hover-color;
+            }
+        }
+
+        .dropdown{ 
+            .nav-link{
+                color: $link-color;
+            }
+
+            .dropdown-menu{ 
+                .dropdown-item{
+                    color: $dropdown-color;
+                }
+            }
+        }
+    }
+}
+
+.navbar-nav:nth-child(2){ 
+    a{
+        padding: 15px;
+    }
+}
