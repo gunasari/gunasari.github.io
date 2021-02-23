@@ -36,9 +36,13 @@
   padding: 15px;
 }
 
+.aparatur .container .kotak {
+  background-color: black;
+}
+
 .aparatur .container .jumbotron {
   height: 210px;
-  background-image: url(../../img/banner/banner-ap.png);
+  background-image: url(../../img/banner/banner-aparatur.png);
   background-position: center;
   background-size: cover;
 }

@@ -4,9 +4,13 @@
     .container{
         $img-size: 120px !global;
 
+        .kotak{
+            background-color: black;
+        }
+        
         .jumbotron{
             height: 210px;
-            background-image: url(../../img/banner/banner-ap.png);
+            background-image: url(../../img/banner/banner-aparatur.png);
             background-position: center;
             background-size: cover;
         }
@@ -17,7 +21,7 @@
             width: 200px;
         }
 
-        .kaur{
+        .kaur{ 
             img{
                 width: $img-size;
             }
