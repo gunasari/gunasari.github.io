@@ -36,33 +36,38 @@
   padding: 15px;
 }
 
-.aparatur .container .kotak {
+.aparatur .container, .aparatur .container-fluid {
+  background-image: url(../../img/background/4858794.jpg);
+  background-size: cover;
+}
+
+.aparatur .container .kotak, .aparatur .container-fluid .kotak {
   background-color: black;
 }
 
-.aparatur .container .jumbotron {
+.aparatur .container .jumbotron, .aparatur .container-fluid .jumbotron {
   height: 210px;
   background-image: url(../../img/banner/banner-aparatur.png);
   background-position: center;
   background-size: cover;
 }
 
-.aparatur .container img {
+.aparatur .container img, .aparatur .container-fluid img {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0 20px;
   width: 200px;
 }
 
-.aparatur .container .kaur img {
-  width: 120px;
+.aparatur .container .kaur img, .aparatur .container-fluid .kaur img {
+  width: 150px;
 }
 
-.aparatur .container .kasi img {
-  width: 120px;
+.aparatur .container .kasi img, .aparatur .container-fluid .kasi img {
+  width: 150px;
 }
 
-.aparatur .container .kadus img {
-  width: 120px;
+.aparatur .container .kadus img, .aparatur .container-fluid .kadus img {
+  width: 150px;
 }
 /*# sourceMappingURL=daftar-aparatur.css.map */
