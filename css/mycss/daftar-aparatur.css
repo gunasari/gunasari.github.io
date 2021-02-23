@@ -35,4 +35,30 @@
 .navbar-nav:nth-child(2) a {
   padding: 15px;
 }
+
+.aparatur .container .jumbotron {
+  height: 210px;
+  background-image: url(../../img/banner/banner-ap.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.aparatur .container img {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 20px;
+  width: 200px;
+}
+
+.aparatur .container .kaur img {
+  width: 120px;
+}
+
+.aparatur .container .kasi img {
+  width: 120px;
+}
+
+.aparatur .container .kadus img {
+  width: 120px;
+}
 /*# sourceMappingURL=daftar-aparatur.css.map */

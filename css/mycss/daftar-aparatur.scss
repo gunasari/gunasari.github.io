@@ -1,1 +1,38 @@
 @import "nav";
+
+.aparatur{
+    .container{
+        $img-size: 120px !global;
+
+        .jumbotron{
+            height: 210px;
+            background-image: url(../../img/banner/banner-ap.png);
+            background-position: center;
+            background-size: cover;
+        }
+        
+        img{
+            box-sizing: border-box;
+            padding: 0 20px;
+            width: 200px;
+        }
+
+        .kaur{
+            img{
+                width: $img-size;
+            }
+        }
+
+        .kasi{
+            img{
+                width: $img-size;
+            }
+        }
+
+        .kadus{
+            img{
+                width: $img-size;
+            }
+        }
+    }
+}
