@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 .nav {
   -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.7);
           box-shadow: 0 1px 10px rgba(0, 0, 0, 0.7);
@@ -36,69 +38,62 @@
   padding: 15px;
 }
 
-.aparatur .jumbotron {
+header .jumbotron {
   height: 210px;
   background-position: center;
   background-size: cover;
   border-radius: 0;
 }
 
-.aparatur .container, .aparatur .container-fluid {
-  margin-top: -30px;
-  padding-top: 30px;
+.layanan h3 {
+  font-family: "Merriweather Sans", sans-serif;
 }
 
-.aparatur .container .kotak, .aparatur .container-fluid .kotak {
-  background-color: black;
-}
-
-.aparatur .container img, .aparatur .container-fluid img {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 0 20px;
-  width: 200px;
-}
-
-.aparatur .container .kaur img, .aparatur .container-fluid .kaur img {
+.layanan img {
   width: 150px;
+  height: 150px;
 }
 
-.aparatur .container .kasi img, .aparatur .container-fluid .kasi img {
-  width: 150px;
+footer {
+  position: relative;
+  margin-top: 100px;
 }
 
-.aparatur .container .kadus img, .aparatur .container-fluid .kadus img {
-  width: 150px;
+footer .container-fluid {
+  position: absolute;
+  bottom: 0;
 }
 
 @media (max-width: 360px) {
   .jumbotron {
     background-size: auto;
-    background-image: url(../../img/banner/aparatur-galaxy2.png);
+    background-image: url(../../img/banner/layanan-galaxy.png);
   }
 }
 
 @media (max-width: 480px) and (min-width: 361px) {
   .jumbotron {
-    background-image: url(../../img/banner/aparatur-mobile.png);
+    background-image: url(../../img/banner/layanan-mobile.png);
   }
 }
 
 @media (min-width: 481px) and (max-width: 1199px) {
   .jumbotron {
-    background-image: url(../../img/banner/aparatur-tablet1.png);
+    background-image: url(../../img/banner/layanan-tablet.png);
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1348px) {
   .jumbotron {
-    background-image: url(../../img/banner/aparatur-desktop2.png);
+    background-image: url(../../img/banner/layanan-desktop.png);
+    height: 300px;
   }
 }
 
 @media (min-width: 1349px) {
   .jumbotron {
-    background-image: url(../../img/banner/aparatur-desktop1.png);
+    background-image: url(../../img/banner/layanan-desktop3.png);
+    height: 300px;
   }
 }
-/*# sourceMappingURL=daftar-aparatur.css.map */
+/*# sourceMappingURL=layanan-desa.css.map */
