@@ -1,21 +1,25 @@
 @import "nav";
 
 .aparatur{
+    
+    .jumbotron{
+        height: 210px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 0;
+    }
+
     .container, .container-fluid{
         $img-size: 150px !global;
 
-        background-image: url(../../img/background/4858794.jpg);
-        background-size: cover;
+        margin-top: -30px;
+        padding-top: 30px;
+
+        background-image: url(../../img/icon/pattern.png);
         .kotak{
             background-color: black;
         }
 
-        .jumbotron{
-            height: 210px;
-            background-image: url(../../img/banner/banner-aparatur.png);
-            background-position: center;
-            background-size: cover;
-        }
         
         img{
             box-sizing: border-box;
@@ -41,4 +45,29 @@
             }
         }
     }
+}
+
+@media (max-width: 360px){
+    .jumbotron {
+        background-size: auto;
+        background-image: url(../../img/banner/aparatur-galaxy2.png);
+    }
+}
+
+@media (max-width: 480px) and (min-width: 361px) {
+    .jumbotron {
+        background-image: url(../../img/banner/aparatur-mobile.png);
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1199px) {
+    .jumbotron {
+        background-image: url(../../img/banner/aparatur-tablet.png);
+    }
+}
+
+@media (min-width: 1200px) {
+	.jumbotron {
+		background-image: url(../../img/banner/aparatur-desktop.png);
+	}
 }
