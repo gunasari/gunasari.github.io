@@ -1,0 +1,75 @@
+@import "nav";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+$verelaRound: 'Varela Round', sans-serif;
+$notoSans: 'Merriweather Sans', sans-serif;
+
+header{
+    .jumbotron{
+        height: 210px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 0;
+    }
+}
+
+.layanan{
+    
+    h3{
+        font-family: $notoSans;
+    }
+
+    p{
+        
+    }
+
+
+    img{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+footer{
+    position: relative;
+    margin-top: 100px;
+
+    .container-fluid{
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 360px){
+    .jumbotron {
+        background-size: auto;
+        background-image: url(../../img/banner/layanan-galaxy.png);
+    }
+}
+
+@media (max-width: 480px) and (min-width: 361px) {
+    .jumbotron {
+        background-image: url(../../img/banner/layanan-mobile.png);
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1199px) {
+    .jumbotron {
+        background-image: url(../../img/banner/layanan-tablet.png);
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1348px) {
+	.jumbotron {
+		background-image: url(../../img/banner/layanan-desktop.png);
+        height: 300px;
+	}
+}
+
+@media (min-width: 1349px) {
+	.jumbotron {
+		background-image: url(../../img/banner/layanan-desktop3.png);
+        height: 300px;
+	}
+}
