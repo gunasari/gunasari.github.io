@@ -46,7 +46,6 @@
 .aparatur .container, .aparatur .container-fluid {
   margin-top: -30px;
   padding-top: 30px;
-  background-image: url(../../img/icon/pattern.png);
 }
 
 .aparatur .container .kotak, .aparatur .container-fluid .kotak {
@@ -87,13 +86,19 @@
 
 @media (min-width: 481px) and (max-width: 1199px) {
   .jumbotron {
-    background-image: url(../../img/banner/aparatur-tablet.png);
+    background-image: url(../../img/banner/aparatur-tablet1.png);
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1348px) {
   .jumbotron {
-    background-image: url(../../img/banner/aparatur-desktop.png);
+    background-image: url(../../img/banner/aparatur-desktop2.png);
+  }
+}
+
+@media (min-width: 1349px) {
+  .jumbotron {
+    background-image: url(../../img/banner/aparatur-desktop1.png);
   }
 }
 /*# sourceMappingURL=daftar-aparatur.css.map */
