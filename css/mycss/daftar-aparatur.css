@@ -43,31 +43,23 @@
   border-radius: 0;
 }
 
-.aparatur .container, .aparatur .container-fluid {
+.aparatur .container {
   margin-top: -30px;
   padding-top: 30px;
 }
 
-.aparatur .container .kotak, .aparatur .container-fluid .kotak {
+.aparatur .container .kotak {
   background-color: black;
 }
 
-.aparatur .container img, .aparatur .container-fluid img {
+.aparatur .container img {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0 20px;
   width: 200px;
 }
 
-.aparatur .container .kaur img, .aparatur .container-fluid .kaur img {
-  width: 150px;
-}
-
-.aparatur .container .kasi img, .aparatur .container-fluid .kasi img {
-  width: 150px;
-}
-
-.aparatur .container .kadus img, .aparatur .container-fluid .kadus img {
+.aparatur .container .kaur img, .aparatur .container .kasi img, .aparatur .container .kadus img {
   width: 150px;
 }
 
@@ -76,17 +68,44 @@
     background-size: auto;
     background-image: url(../../img/banner/aparatur-galaxy2.png);
   }
+  .kaur img, .aparatur .container .kasi img, .aparatur .container .kadus img {
+    width: 25px;
+  }
+  .kasi img {
+    width: 25px;
+  }
+  .kadus img {
+    width: 25px;
+  }
 }
 
 @media (max-width: 480px) and (min-width: 361px) {
   .jumbotron {
     background-image: url(../../img/banner/aparatur-mobile.png);
   }
+  .kaur img, .aparatur .container .kasi img, .aparatur .container .kadus img {
+    width: 50px;
+  }
+  .kasi img {
+    width: 50px;
+  }
+  .kadus img {
+    width: 50px;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 1199px) {
   .jumbotron {
     background-image: url(../../img/banner/aparatur-tablet1.png);
+  }
+  .kaur img, .aparatur .container .kasi img, .aparatur .container .kadus img {
+    width: 100px;
+  }
+  .kasi img {
+    width: 100px;
+  }
+  .kadus img {
+    width: 100px;
   }
 }
 
