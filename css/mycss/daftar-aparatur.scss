@@ -9,8 +9,11 @@
         border-radius: 0;
     }
 
-    .container, .container-fluid{
+    .container{
         $img-size: 150px !global;
+        $img-tablet: 100px !global;
+        $img-mobile: 50px !global;
+        $img-galaxy: 25px !global;
 
         margin-top: -30px;
         padding-top: 30px;
@@ -33,15 +36,11 @@
         }
 
         .kasi{
-            img{
-                width: $img-size;
-            }
+            @extend .kaur;
         }
 
         .kadus{
-            img{
-                width: $img-size;
-            }
+            @extend .kaur;
         }
     }
 }
@@ -51,18 +50,72 @@
         background-size: auto;
         background-image: url(../../img/banner/aparatur-galaxy2.png);
     }
+
+        .kaur{ 
+            img{
+                width: $img-galaxy;
+            }
+        }
+
+        .kasi{
+            img{
+                width: $img-galaxy;
+            }
+        }
+
+        .kadus{
+            img{
+                width: $img-galaxy;
+            }
+        }
 }
 
 @media (max-width: 480px) and (min-width: 361px) {
     .jumbotron {
         background-image: url(../../img/banner/aparatur-mobile.png);
     }
+
+        .kaur{ 
+            img{
+                width: $img-mobile;
+            }
+        }
+
+        .kasi{
+            img{
+                width: $img-mobile;
+            }
+        }
+
+        .kadus{
+            img{
+                width: $img-mobile;
+            }
+        }
 }
 
 @media (min-width: 481px) and (max-width: 1199px) {
     .jumbotron {
         background-image: url(../../img/banner/aparatur-tablet1.png);
     }
+
+        .kaur{ 
+            img{
+                width: $img-tablet;
+            }
+        }
+
+        .kasi{
+            img{
+                width: $img-tablet;
+            }
+        }
+
+        .kadus{
+            img{
+                width: $img-tablet;
+            }
+        }
 }
 
 @media (min-width: 1200px) and (max-width: 1348px) {
