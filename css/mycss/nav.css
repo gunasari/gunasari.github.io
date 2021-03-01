@@ -35,4 +35,10 @@
 .navbar-nav:nth-child(2) a {
   padding: 15px;
 }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .navbar .navbar-nav .nav-item a {
+    font-size: 0.7rem;
+  }
+}
 /*# sourceMappingURL=nav.css.map */

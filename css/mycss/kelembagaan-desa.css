@@ -38,6 +38,12 @@
   padding: 15px;
 }
 
+@media (min-width: 768px) and (max-width: 1199px) {
+  .navbar .navbar-nav .nav-item a {
+    font-size: 0.7rem;
+  }
+}
+
 header .jumbotron {
   height: 210px;
   background-position: center;

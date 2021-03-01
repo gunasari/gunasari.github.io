@@ -65,6 +65,14 @@ header .jumbotron {
   margin-right: 12px;
 }
 
+footer{
+  height: 3vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 @media (max-width: 360px) {
   .jumbotron {
     background-size: auto;
@@ -90,17 +98,78 @@ header .jumbotron {
   .jumbotron {
     background-image: url(../../img/banner/layanan-mobile.png);
   }
+
+  footer{
+    margin-bottom: -450px;
+  }
+
+  .d-flex .header-layanan {
+    font-size: 14px;
+  }
+  .d-flex .content-layanan{
+    font-size: 12px;
+  }
+  .d-flex button{
+    font-size: 10px;
+  }
+  p {
+    font-size: 10px;
+  }
+
+  .col-md-12{
+    margin-bottom: 30px;
+  }
+
+  .layanan img {
+    width: 70px;
+    height: 70px;
+    margin-right: 12px;
+  }
 }
 
-@media (min-width: 481px) and (max-width: 1199px) {
+@media (min-width: 481px) and (max-width: 767px) {
   .jumbotron {
     background-image: url(../../img/banner/layanan-tablet.png);
   }
-  .header-layanan {
+  .col-md-12{
+    padding-top: 30px;
+  }
+  .d-flex .header-layanan {
+    font-size: 16px;
+  }
+  .d-flex .content-layanan{
+    font-size: 14px;
+  }
+  .d-flex button{
     font-size: 12px;
   }
   p {
     font-size: 12px;
+  }
+  footer{
+    margin-bottom: -350px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .jumbotron {
+    background-image: url(../../img/banner/layanan-tablet.png);
+  }
+
+  .col-md-12{
+    margin-bottom: 40px;
+  }
+
+  footer{
+    margin-bottom: -50px;
+  }
+
+  .layanan button {
+    width: 200px;
+  }
+
+  footer{
+    margin-bottom: -150px;
   }
 }
 

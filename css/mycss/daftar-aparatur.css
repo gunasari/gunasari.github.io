@@ -36,11 +36,23 @@
   padding: 15px;
 }
 
+@media (min-width: 768px) and (max-width: 1199px) {
+  .navbar .navbar-nav .nav-item a {
+    font-size: 0.7rem;
+  }
+}
+
 .aparatur .jumbotron {
   height: 210px;
   background-position: center;
   background-size: cover;
   border-radius: 0;
+}
+
+.aparatur .container-fluid{
+  height: 1500px;
+  background-position: center;
+  background-size: cover;
 }
 
 .aparatur .container {
@@ -68,6 +80,9 @@
     background-size: auto;
     background-image: url(../../img/banner/aparatur-galaxy2.png);
   }
+  .container-fluid{
+    background-image: url(../../img/aparatur-desa-galaxy.png);
+  }
   .kaur img, .aparatur .container .kasi img, .aparatur .container .kadus img {
     width: 25px;
   }
@@ -82,6 +97,9 @@
 @media (max-width: 480px) and (min-width: 361px) {
   .jumbotron {
     background-image: url(../../img/banner/aparatur-mobile.png);
+  }
+  .container-fluid{
+    background-image: url(../../img/aparatur-desa-hp.png);
   }
   .kaur img, .aparatur .container .kasi img, .aparatur .container .kadus img {
     width: 50px;
@@ -98,6 +116,9 @@
   .jumbotron {
     background-image: url(../../img/banner/aparatur-tablet1.png);
   }
+  .container-fluid{
+    background-image: url(../../img/aparatur-desa-tablet.png);
+  }
   .kaur img, .aparatur .container .kasi img, .aparatur .container .kadus img {
     width: 100px;
   }
@@ -113,11 +134,19 @@
   .jumbotron {
     background-image: url(../../img/banner/aparatur-desktop2.png);
   }
+
+  .container-fluid{
+    background-image: url(../../img/aparatur-desa-desktop.png);
+  }
 }
 
 @media (min-width: 1349px) {
   .jumbotron {
     background-image: url(../../img/banner/aparatur-desktop1.png);
+  }
+
+  .container-fluid{
+    background-image: url(../../img/aparatur-desa-desktop1.png);
   }
 }
 /*# sourceMappingURL=daftar-aparatur.css.map */

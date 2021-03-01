@@ -36,6 +36,12 @@
   padding: 15px;
 }
 
+@media (min-width: 768px) and (max-width: 1199px) {
+  .navbar .navbar-nav .nav-item a {
+    font-size: 0.7rem;
+  }
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -127,26 +133,26 @@ footer {
     width: 100%;
     margin-top: -100px;
   }
-  p {
+  .carousel-caption p {
     font-size: .6em;
   }
-  h1 {
+  .carousel-caption h1 {
     font-size: 1.3em;
   }
-  hr {
+  .carousel-caption hr {
     width: 200px;
   }
-  .navbar-brand img {
+  .carousel-caption .navbar-brand img {
     width: 25px;
   }
-  nav a {
+  .carousel-caption nav a {
     font-size: .6em;
   }
-  .navbar-nav img {
+  .carousel-caption .navbar-nav img {
     width: 16px;
     float: left;
   }
-  .navbar-nav.social-media {
+  .carousel-caption .navbar-nav.social-media {
     margin-top: 5px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -156,23 +162,23 @@ footer {
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .profil-desa button {
+  .carousel-caption .profil-desa button {
     font-size: .7em;
   }
-  .profil-desa li {
+  .carousel-caption .profil-desa li {
     font-size: .6em;
     margin-left: -28px;
   }
-  h3 {
+  .carousel-caption h3 {
     font-size: 1.2em;
   }
-  h4 {
+  .carousel-caption h4 {
     font-size: 1.1em;
   }
-  h5 {
+  .carousel-caption h5 {
     font-size: 1em;
   }
-  .profil-desa h1, h2, h3, h4, h5 {
+  .carousel-caption .profil-desa h1, .carousel-caption h2, .carousel-caption h3, .carousel-caption h4, .carousel-caption h5 {
     text-align: center;
   }
 }
