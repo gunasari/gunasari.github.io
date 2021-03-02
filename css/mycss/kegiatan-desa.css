@@ -14,10 +14,6 @@ header .jumbotron {
     box-shadow: 0 4px 10px rgba(0,0,0,.7);
 }
 
-.footer{
-    height: 3vh;
-}
-
 @media (max-width: 360px) {
     .jumbotron {
       background-image: url(../../img/banner/kegiatan-galaxy.png);
