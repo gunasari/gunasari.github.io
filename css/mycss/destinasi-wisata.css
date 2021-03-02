@@ -1,0 +1,76 @@
+.nav {
+    -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.7);
+            box-shadow: 0 1px 10px rgba(0, 0, 0, 0.7);
+  }
+  
+  .navbar-brand img {
+    width: 40px;
+  }
+  
+  .navbar .navbar-nav {
+    margin: 0 auto;
+  }
+  
+  .navbar .navbar-nav img {
+    width: 24px;
+  }
+  
+  .navbar .navbar-nav .nav-item a {
+    color: #e4e4e4;
+    font-size: 0.8rem;
+  }
+  
+  .navbar .navbar-nav .nav-item a:hover {
+    color: #a7a7a7;
+  }
+  
+  .navbar .navbar-nav .dropdown .nav-link {
+    color: #e4e4e4;
+  }
+  
+  .navbar .navbar-nav .dropdown .dropdown-menu .dropdown-item {
+    color: #3a3a3a;
+  }
+  
+  .navbar-nav:nth-child(2) a {
+    padding: 15px;
+  }
+
+  header .jumbotron {
+    height: 210px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0;
+  }
+
+  @media (max-width: 360px) {
+    .jumbotron {
+      background-size: auto;
+      background-image: url(../../img/banner/destinasi-wisata-galaxy.png);
+    }
+  }
+  
+  @media (max-width: 480px) and (min-width: 361px) {
+    .jumbotron {
+      background-image: url(../../img/banner/destinasi-wisata-mobile.png);
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 1199px) {
+    .jumbotron {
+      background-image: url(../../img/banner/destinasi-wisata-tablet.png);
+    }
+  }
+  
+  @media (min-width: 1200px) and (max-width: 1348px) {
+    .jumbotron {
+      background-image: url(../../img/banner/destinasi-wisata-desktop.png);
+    }
+  }
+  
+  @media (min-width: 1349px) {
+    .jumbotron {
+      background-image: url(../../img/banner/destinasi-wisata-desktop1.png);
+      height: 300px;
+    }
+  }
