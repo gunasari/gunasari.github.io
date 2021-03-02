@@ -38,6 +38,10 @@
   padding: 15px;
 }
 
+body{
+  margin-bottom: 50px;
+}
+
 header .jumbotron {
   height: 210px;
   background-position: center;
@@ -67,7 +71,7 @@ header .jumbotron {
 
 footer{
   height: 3vh;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
@@ -168,9 +172,6 @@ footer{
     width: 200px;
   }
 
-  footer{
-    margin-bottom: -150px;
-  }
 }
 
 @media (min-width: 1200px) and (max-width: 1348px) {

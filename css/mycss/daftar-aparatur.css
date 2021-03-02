@@ -36,6 +36,10 @@
   padding: 15px;
 }
 
+.container-fluid img{
+  width: 100%;
+}
+
 @media (min-width: 768px) and (max-width: 1199px) {
   .navbar .navbar-nav .nav-item a {
     font-size: 0.7rem;
@@ -80,9 +84,6 @@
     background-size: auto;
     background-image: url(../../img/banner/aparatur-galaxy2.png);
   }
-  .container-fluid{
-    background-image: url(../../img/aparatur-desa-galaxy.png);
-  }
   .kaur img, .aparatur .container .kasi img, .aparatur .container .kadus img {
     width: 25px;
   }
@@ -96,10 +97,7 @@
 
 @media (max-width: 480px) and (min-width: 361px) {
   .jumbotron {
-    background-image: url(../../img/banner/aparatur-mobile.png);
-  }
-  .container-fluid{
-    background-image: url(../../img/aparatur-desa-hp.png);
+    background-image: url(../../img/banner/aparatur-galaxy2.png);
   }
   .kaur img, .aparatur .container .kasi img, .aparatur .container .kadus img {
     width: 50px;
@@ -115,9 +113,6 @@
 @media (min-width: 481px) and (max-width: 1199px) {
   .jumbotron {
     background-image: url(../../img/banner/aparatur-tablet1.png);
-  }
-  .container-fluid{
-    background-image: url(../../img/aparatur-desa-tablet.png);
   }
   .kaur img, .aparatur .container .kasi img, .aparatur .container .kadus img {
     width: 100px;
@@ -135,9 +130,6 @@
     background-image: url(../../img/banner/aparatur-desktop2.png);
   }
 
-  .container-fluid{
-    background-image: url(../../img/aparatur-desa-desktop.png);
-  }
 }
 
 @media (min-width: 1349px) {
@@ -145,8 +137,5 @@
     background-image: url(../../img/banner/aparatur-desktop1.png);
   }
 
-  .container-fluid{
-    background-image: url(../../img/aparatur-desa-desktop1.png);
-  }
 }
 /*# sourceMappingURL=daftar-aparatur.css.map */
