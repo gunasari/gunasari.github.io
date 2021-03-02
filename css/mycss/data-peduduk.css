@@ -1,0 +1,48 @@
+@import url(nav.css);
+
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .jumbotron {
+    height: 210px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,.7);
+}
+
+@media (max-width: 360px) {
+    .jumbotron {
+      background-image: url(../../img/banner/penduduk-galaxy.png);
+      height: 100px;
+    }
+  }
+  
+  @media (max-width: 480px) and (min-width: 361px) {
+    .jumbotron {
+      background-image: url(../../img/banner/penduduk-mobile.png);
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 1199px) {
+    .jumbotron {
+      background-image: url(../../img/banner/penduduk-tablet.png);
+    }
+  }
+  
+  @media (min-width: 1200px) and (max-width: 1348px) {
+    .jumbotron {
+      background-image: url(../../img/banner/penduduk-desktop.png);
+    }
+  }
+  
+  @media (min-width: 1349px) {
+    .jumbotron {
+      background-image: url(../../img/banner/penduduk-desktop1.png);
+      height: 300px;
+    }
+  }
+
