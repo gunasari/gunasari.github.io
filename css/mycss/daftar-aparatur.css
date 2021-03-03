@@ -42,6 +42,10 @@
   background-position: center;
 }
 
+body{
+  margin-bottom: 60px;
+}
+
 @media (min-width: 768px) and (max-width: 1199px) {
   .navbar .navbar-nav .nav-item a {
     font-size: 0.7rem;
@@ -53,12 +57,6 @@
   background-position: center;
   background-size: cover;
   border-radius: 0;
-}
-
-.aparatur .container-fluid{
-  height: 1500px;
-  background-position: center;
-  background-size: cover;
 }
 
 .aparatur .container {
@@ -81,24 +79,18 @@
   width: 150px;
 }
 
+.aparatur .container-fluid .daftar-aparatur{
+  margin: 10px auto;
+}
+
+.aparatur .container-fluid .daftar-aparatur img{
+  width: 100%;
+}
+
 @media (max-width: 360px) {
   .jumbotron {
     background-size: auto;
     background-image: url(../../img/banner/aparatur-galaxy2.png);
-  }
-  .kaur img, .aparatur .container .kasi img, .aparatur .container .kadus img {
-    width: 25px;
-  }
-  .kasi img {
-    width: 25px;
-  }
-  .kadus img {
-    width: 25px;
-  }
-  .aparatur .container-fluid .daftar-aparatur{
-    width: 240px;
-    height: 260px;
-    background-image: url(../../img/aparatur-desa-galaxy.png);
   }
 }
 
@@ -106,41 +98,11 @@
   .jumbotron {
     background-image: url(../../img/banner/aparatur-galaxy2.png);
   }
-  .kaur img, .aparatur .container .kasi img, .aparatur .container .kadus img {
-    width: 50px;
-  }
-  .kasi img {
-    width: 50px;
-  }
-  .kadus img {
-    width: 50px;
-  }
-
-  .aparatur .container-fluid .daftar-aparatur{
-    width: 400px;
-    height: 466.7px;
-    background-image: url(../../img/aparatur-desa-hp.png);
-  }
 }
 
 @media (min-width: 481px) and (max-width: 1199px) {
   .jumbotron {
     background-image: url(../../img/banner/aparatur-tablet1.png);
-  }
-  .kaur img, .aparatur .container .kasi img, .aparatur .container .kadus img {
-    width: 100px;
-  }
-  .kasi img {
-    width: 100px;
-  }
-  .kadus img {
-    width: 100px;
-  }
-
-  .aparatur .container-fluid .daftar-aparatur{
-    width: 600px;
-    height: 666.7px;
-    background-image: url(../../img/aparatur-desa-tablet.png);
   }
 }
 
@@ -148,25 +110,11 @@
   .jumbotron {
     background-image: url(../../img/banner/aparatur-desktop2.png);
   }
-
-  .aparatur .container-fluid .daftar-aparatur{
-    width: 910px;
-    height: 1000px;
-    background-image: url(../../img/aparatur-desa-desktop.png);
-  }
-
 }
 
 @media (min-width: 1349px) {
   .jumbotron {
     background-image: url(../../img/banner/aparatur-desktop1.png);
   }
-
-  .aparatur .container-fluid .daftar-aparatur{
-    width: 1000px;
-    height: 1100px;
-    background-image: url(../../img/aparatur-desa-desktop1.png);
-  }
-
 }
 /*# sourceMappingURL=daftar-aparatur.css.map */
