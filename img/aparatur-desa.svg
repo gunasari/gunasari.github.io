@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1360.6299"
-   height="1474.0157"
-   viewBox="0 0 360 390"
+   width="1341.4375"
+   height="1438.5043"
+   viewBox="0 0 354.92202 380.60426"
    version="1.1"
    id="svg1017"
    inkscape:export-filename="E:\Gunasari-main\img\aparatur-desa-galaxy.png"
@@ -63,8 +63,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="537.54513"
-     inkscape:cy="680.74895"
+     inkscape:cx="528.23294"
+     inkscape:cy="335.66312"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -76,9 +76,13 @@
      inkscape:window-height="705"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
     <sodipodi:guide
-       position="180,411.38156"
+       position="177.53615,407.97262"
        orientation="-1,0"
        id="guide2621"
        inkscape:label=""
@@ -100,7 +104,8 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-2.4638504,-5.9868018)">
     <text
        xml:space="preserve"
        id="text216"
