@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+  margin-bottom: 60px;
+}
+
 header .jumbotron {
     height: 210px;
     background-position: center;
