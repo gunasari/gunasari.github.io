@@ -25,6 +25,25 @@
 </head>
 
 <body>
+    <!-- PHP -->
+    <?php
+        // define variables and set to empty values
+        $nama = $NIK = $aduan = "";
+
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            $nama = test_input($_POST["nama"]);
+            $NIK = test_input($_POST["NIK"]);
+            $aduan = test_input($_POST["aduan"]);
+        }
+
+        function test_input($data) {
+        $data = trim($data);
+        $data = stripslashes($data);
+        $data = htmlspecialchars($data);
+        return $data;
+        }
+    ?>
+
    <!-- Navbar -->
    <section class="navigasi">
         <nav class="navbar navbar-expand-md bg-dark navbar-light custom-navbar sticky-top">
@@ -61,7 +80,7 @@
                         <a class="nav-link" href="layanan-desa.html">LAYANAN DESA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="layanan-pengaduan.html">LAYANAN PENGADUAN</a>
+                        <a class="nav-link" href="#">LAYANAN PENGADUAN</a>
                     </li>
                 </ul>
         
@@ -92,7 +111,7 @@
             <div class="d-flex flex-column">
                 <div class="row">
                     <div class="col">
-                        <form action="/action_page.php" class="was-validated">
+                        <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" class="was-validated">
                             <div class="row justify-content-center">
                                 <div class="col-sm-6">
                                     <div class="form-group">
@@ -106,7 +125,7 @@
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <label for="NIK">NIK :</label>
-                                        <input type="text" class="form-control" id="NIK" placeholder="Masukan NIK..." name="nama" required>
+                                        <input type="text" class="form-control" id="NIK" placeholder="Masukan NIK..." name="NIK" required>
                                         <div class="valid-feedback">Valid.</div>
                                         <div class="invalid-feedback">Wajib mengisi NIK!!!</div>
                                     </div>
