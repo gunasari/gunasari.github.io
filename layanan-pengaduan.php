@@ -14,14 +14,14 @@
     <script src="https://kit.fontawesome.com/48a54999f7.js" crossorigin="anonymous"></script>
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="css/mycss/kegiatan-desa.css">
+    <link rel="stylesheet" href="css/mycss/layanan-pengaduan.css">
 
     <!-- Fontawesome Icon -->
     
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 
 
-    <title>Destinasi Wisata</title>
+    <title>Desa Gunasari</title>
 </head>
 
 <body>
@@ -61,7 +61,7 @@
                         <a class="nav-link" href="layanan-desa.html">LAYANAN DESA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="layanan-pengaduan.php">LAYANAN PENGADUAN</a>
+                        <a class="nav-link" href="layanan-pengaduan.html">LAYANAN PENGADUAN</a>
                     </li>
                 </ul>
         
@@ -79,50 +79,73 @@
         </nav>
    </section>
 
-   
    <header>
-       <div class="jumbotron">
-           <h1 class="text-center"></h1>
+        <div class="row justify-content-center mt-5">
+            <div class="col-sm-6 text-center">
+                <img src="img/icon/Layanan Pengaduan.png" alt="" class="sm-header md-header lg-header"> 
+            </div>
         </div>
-    </header>
-    
-    <section class="kegiatan" id="kegiatan">
-        <div class="container">
-            <div class="row mb-md-5">
-                <div class="col-md-4 col-sm-12">
-                    <img src="img/carousel/full/gerakjalan.jpg" class="img-thumbnail" alt="">
-                    <h3 class="text-center">Gerak Jalan</h3>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <img src="img/carousel/full/gerakjalan.jpg" class="img-thumbnail" alt="">
-                    <h3 class="text-center">Gerak Jalan</h3>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <img src="img/carousel/full/gerakjalan.jpg" class="img-thumbnail" alt="">
-                    <h3 class="text-center">Gerak Jalan</h3>
+   </header>
+
+   <section class="form mb-5" id="form">
+        <div class="container py-4">
+            <div class="d-flex flex-column">
+                <div class="row">
+                    <div class="col">
+                        <form action="/action_page.php" class="was-validated">
+                            <div class="row justify-content-center">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="nama">Nama Lengkap :</label>
+                                        <input type="text" class="form-control" id="nama" placeholder="Masukan nama lengkap..." name="nama">
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="row justify-content-center">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="NIK">NIK :</label>
+                                        <input type="text" class="form-control" id="NIK" placeholder="Masukan NIK..." name="nama" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Wajib mengisi NIK!!!</div>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="row justify-content-center">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="aduan">Aduan :</label>
+                                        <textarea name="aduan" id="aduan" class="form-control" placeholder="Masukan aduan disini..." required></textarea>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Dilarang membuat aduan kosong!!!</div>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="row justify-content-center">
+                                <div class="col-sm-6">
+                                    <button type="submit" class="btn btn-primary">Kirim</button>
+                                </div>
+                            </div>
+                        </form> 
+                    </div>
                 </div>
             </div>
+        </div>
+   </section>
 
+    <!-- Footer -->
+    <footer class="footer mt-5" id="footer">
+        <div class="container-fluid bg-dark text-light">
             <div class="row">
-                <div class="col-md-4 col-sm-12">
-                    <img src="img/carousel/full/gerakjalan.jpg" class="img-thumbnail" alt="">
-                    <h3 class="text-center">Gerak Jalan</h3>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <img src="img/carousel/full/gerakjalan.jpg" class="img-thumbnail" alt="">
-                    <h3 class="text-center">Gerak Jalan</h3>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <img src="img/carousel/full/gerakjalan.jpg" class="img-thumbnail" alt="">
-                    <h3 class="text-center">Gerak Jalan</h3>
+                <div class="col-md-12">
+                    <h6 class="text-center">&copy Copyright Gunasari.</h6>
                 </div>
             </div>
         </div>
-    </section>
-
-    <section class="bg-dark fixed-bottom" id="footer">
-        <p class="text-center text-light my-auto">&copy Copyright Gunasari.</h6>
-    </section>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
