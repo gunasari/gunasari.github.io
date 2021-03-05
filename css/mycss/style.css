@@ -1,6 +1,6 @@
 .nav {
   -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.7);
-          box-shadow: 0 1px 10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.7);
 }
 
 .navbar-brand img {
@@ -42,7 +42,8 @@
   }
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
@@ -63,27 +64,22 @@ button {
   margin-top: 30px;
 }
 
-.carousel {
-  background-attachment: fixed;
-}
-
 .carousel .carousel-caption {
-  margin: auto;
 }
 
 .carousel .carousel-item img {
   -webkit-filter: brightness(0.7);
-          filter: brightness(0.7);
-}
-
-.carousel .carousel-caption img {
-  width: 75%;
-  margin-top: -85%;
+  filter: brightness(0.7);
 }
 
 .container-fluid {
   padding: 0;
   margin-top: -30px;
+}
+
+.carousel .carousel-caption img {
+  width: 75%;
+  margin-top: -85%;
 }
 
 /* nav card */
@@ -112,7 +108,7 @@ button {
 
 .d-flex .d-content {
   -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.8);
-          box-shadow: 0 3px 8px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.8);
   margin: 30px 8px;
   width: 50%;
   max-width: 150px;
@@ -128,13 +124,20 @@ footer {
   bottom: 0;
 }
 
+@media (max-width: 768px) {
+  .carousel .carousel-caption img {
+    width: 75%;
+    margin-top: -65%;
+  }
+}
+
 @media (max-width: 576px) {
-  .carousel-caption img {
-    width: 100%;
-    margin-top: -100px;
+  .carousel .carousel-caption img {
+    width: 75%;
+    margin-top: -45%;
   }
   .carousel-caption p {
-    font-size: .6em;
+    font-size: 0.6em;
   }
   .carousel-caption h1 {
     font-size: 1.3em;
@@ -146,7 +149,7 @@ footer {
     width: 25px;
   }
   .carousel-caption nav a {
-    font-size: .6em;
+    font-size: 0.6em;
   }
   .carousel-caption .navbar-nav img {
     width: 16px;
@@ -159,14 +162,14 @@ footer {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
   .carousel-caption .profil-desa button {
-    font-size: .7em;
+    font-size: 0.7em;
   }
   .carousel-caption .profil-desa li {
-    font-size: .6em;
+    font-size: 0.6em;
     margin-left: -28px;
   }
   .carousel-caption h3 {
@@ -178,7 +181,11 @@ footer {
   .carousel-caption h5 {
     font-size: 1em;
   }
-  .carousel-caption .profil-desa h1, .carousel-caption h2, .carousel-caption h3, .carousel-caption h4, .carousel-caption h5 {
+  .carousel-caption .profil-desa h1,
+  .carousel-caption h2,
+  .carousel-caption h3,
+  .carousel-caption h4,
+  .carousel-caption h5 {
     text-align: center;
   }
 }
