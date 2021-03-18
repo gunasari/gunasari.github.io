@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/mycss/layanan-pengaduan.css">
 
     <!-- Fontawesome Icon -->
-    
+
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 
 
@@ -27,29 +27,30 @@
 <body>
     <!-- PHP -->
     <?php
-        // define variables and set to empty values
-        $nama = $NIK = $aduan = "";
+    // define variables and set to empty values
+    $nama = $NIK = $aduan = "";
 
-        if ($_SERVER["REQUEST_METHOD"] == "POST") {
-            $nama = test_input($_POST["nama"]);
-            $NIK = test_input($_POST["NIK"]);
-            $aduan = test_input($_POST["aduan"]);
-        }
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $nama = test_input($_POST["nama"]);
+        $NIK = test_input($_POST["NIK"]);
+        $aduan = test_input($_POST["aduan"]);
+    }
 
-        function test_input($data) {
+    function test_input($data)
+    {
         $data = trim($data);
         $data = stripslashes($data);
         $data = htmlspecialchars($data);
         return $data;
-        }
+    }
     ?>
 
-   <!-- Navbar -->
-   <section class="navigasi">
+    <!-- Navbar -->
+    <section class="navigasi">
         <nav class="navbar navbar-expand-md bg-dark navbar-light custom-navbar sticky-top">
             <!-- icon kanan -->
             <a class="navbar-brand" href="#">
-                <img src="img/icon/logo-smd.png" alt="">
+                <img src="../img/icon/logo-smd.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -57,11 +58,11 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">BERANDA</a>
+                        <a class="nav-link" href="../beranda/">BERANDA</a>
                     </li>
-        
+
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        <a class="nav-link" href="../kelembagaan-desa/" id="navbardrop">
                             KELEMBAGAAN DESA
                         </a>
                         <div class="dropdown-menu">
@@ -74,44 +75,42 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="daftar-aparatur.html">APARATUR DESA</a>
+                        <a class="nav-link" href="../daftar-aparatur/">APARATUR DESA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="layanan-desa.html">LAYANAN DESA</a>
+                        <a class="nav-link" href="../layanan-desa/">LAYANAN DESA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">LAYANAN PENGADUAN</a>
+                        <a class="nav-link" href="../layanan-pengaduan/">LAYANAN PENGADUAN</a>
                     </li>
                 </ul>
-        
+
                 <ul class="navbar-nav social-media">
                     <li><a href="https://www.facebook.com" target="_blank">
-                            <img src="img/icon/036-facebook.png" alt="">
-                        </a>
-                    </li>
+                            <img src="../img/icon/036-facebook.png" alt="">
+                        </a></li>
                     <li><a href="https://www.instagram.com" target="_blank">
-                            <img src="img/icon/029-instagram.png" alt="">
-                        </a>
-                    </li>
+                            <img src="../img/icon/029-instagram.png" alt="">
+                        </a></li>
                 </ul>
             </div>
         </nav>
-   </section>
+    </section>
 
-   <header>
+    <header>
         <div class="row justify-content-center mt-5">
             <div class="col-sm-6 text-center">
-                <img src="img/icon/Layanan Pengaduan.png" alt="" class="sm-header md-header lg-header"> 
+                <img src="img/icon/Layanan Pengaduan.png" alt="" class="sm-header md-header lg-header">
             </div>
         </div>
-   </header>
+    </header>
 
-   <section class="form mb-5" id="form">
+    <section class="form mb-5" id="form">
         <div class="container py-4">
             <div class="d-flex flex-column">
                 <div class="row">
                     <div class="col">
-                        <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" class="was-validated">
+                        <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" class="was-validated">
                             <div class="row justify-content-center">
                                 <div class="col-sm-6">
                                     <div class="form-group">
@@ -120,7 +119,7 @@
                                     </div>
                                 </div>
                             </div>
-            
+
                             <div class="row justify-content-center">
                                 <div class="col-sm-6">
                                     <div class="form-group">
@@ -131,7 +130,7 @@
                                     </div>
                                 </div>
                             </div>
-            
+
                             <div class="row justify-content-center">
                                 <div class="col-sm-6">
                                     <div class="form-group">
@@ -142,18 +141,18 @@
                                     </div>
                                 </div>
                             </div>
-            
+
                             <div class="row justify-content-center">
                                 <div class="col-sm-6">
                                     <button type="submit" class="btn btn-primary">Kirim</button>
                                 </div>
                             </div>
-                        </form> 
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-   </section>
+    </section>
 
     <!-- Footer -->
     <footer class="footer mt-5" id="footer">

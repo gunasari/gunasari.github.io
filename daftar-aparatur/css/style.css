@@ -1,0 +1,122 @@
+.nav {
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.7);
+}
+
+.navbar-brand img {
+  width: 40px;
+}
+
+.navbar .navbar-nav {
+  margin: 0 auto;
+}
+
+.navbar .navbar-nav img {
+  width: 24px;
+}
+
+.navbar .navbar-nav .nav-item a {
+  color: #e4e4e4;
+  font-size: 0.8rem;
+}
+
+.navbar .navbar-nav .nav-item a:hover {
+  color: #a7a7a7;
+}
+
+.navbar .navbar-nav .dropdown .nav-link {
+  color: #e4e4e4;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu .dropdown-item {
+  color: #3a3a3a;
+}
+
+.navbar-nav:nth-child(2) a {
+  padding: 15px;
+}
+
+.aparatur .container-fluid .daftar-aparatur {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .navbar .navbar-nav .nav-item a {
+    font-size: 0.7rem;
+  }
+}
+
+.aparatur .jumbotron {
+  height: 210px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0;
+}
+
+.aparatur .container {
+  margin-top: -30px;
+  padding-top: 30px;
+}
+
+.aparatur .container .kotak {
+  background-color: black;
+}
+
+.aparatur .container img {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 20px;
+  width: 200px;
+}
+
+.aparatur .container .kaur img,
+.aparatur .container .kasi img,
+.aparatur .container .kadus img {
+  width: 150px;
+}
+
+.aparatur .container-fluid .daftar-aparatur {
+  margin: 10px auto;
+}
+
+.aparatur .container-fluid .daftar-aparatur img {
+  width: 100%;
+}
+
+@media (max-width: 360px) {
+  .jumbotron {
+    background-size: auto;
+    background-image: url(../img/banner/aparatur-galaxy2.png);
+  }
+}
+
+@media (max-width: 480px) and (min-width: 361px) {
+  .jumbotron {
+    background-image: url(../img/banner/aparatur-galaxy2.png);
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1199px) {
+  .jumbotron {
+    background-image: url(../img/banner/aparatur-tablet1.png);
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1348px) {
+  .jumbotron {
+    background-image: url(../img/banner/aparatur-desktop2.png);
+  }
+}
+
+@media (min-width: 1349px) {
+  .jumbotron {
+    background-image: url(../img/banner/aparatur-desktop1.png);
+  }
+}
+/*# sourceMappingURL=daftar-aparatur.css.map */
